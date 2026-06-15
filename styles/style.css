@@ -1,13 +1,81 @@
 @import url("./fonts.css");
 
 :root {
-    --color-text: #4D4F62;
-    --color-card-red: #EA5454;
-    --color-card-mint: #44D3D2;
-    --color-card-orange: #FCAE4A;
-    --color-card-blue: #549EF2;
-    --color-card-bg: #FFFFFF;
-    --color-bg: #FAFAFA;
+  --color-text: #4d4f62;
+  --color-card-red: #ea5454;
+  --color-card-mint: #44d3d2;
+  --color-card-orange: #fcae4a;
+  --color-card-blue: #549ef2;
+  --color-card-bg: #ffffff;
+  --color-bg: #fafafa;
 
-    --ff-base: "Poppins", sans-serif;
+  --ff-base: "Poppins", sans-serif;
+}
+
+* {
+  font-family: var(--ff-base);
+  color: var(--color-text);
+}
+
+body {
+  background-color: var(--color-bg);
+  padding-inline: 32px;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+.thin-text {
+  font-weight: 275;
+}
+
+.information {
+  margin-block-start: 85px;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.subtitle {
+  font-size: 15px;
+  line-height: 167%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+/* .card__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+} */
+
+.card__body {
+  padding: 28px;
+
+  border-radius: 8px;
+  border-top: 4px solid #45d3d3;
+
+  box-shadow: 0 15px 30px -11px rgba(131, 166, 210, 0.5);
+  background: #fff;
+
+  margin-block-end: 25px;
+}
+
+.card__title {
+  font-size: 20px;
+  margin-block-end: 1px;
+}
+
+.card__body > .subtitle {
+  text-align: start;
+  font-size: 13px;
+}
+
+.card__icon {
+  margin-inline-start: auto;
+  margin-top: 32px;
 }
