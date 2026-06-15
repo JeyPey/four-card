@@ -1,0 +1,13 @@
+@import url("./fonts.css");
+
+:root {
+    --color-text: #4D4F62;
+    --color-card-red: #EA5454;
+    --color-card-mint: #44D3D2;
+    --color-card-orange: #FCAE4A;
+    --color-card-blue: #549EF2;
+    --color-card-bg: #FFFFFF;
+    --color-bg: #FAFAFA;
+
+    --ff-base: "Poppins", sans-serif;
+}
