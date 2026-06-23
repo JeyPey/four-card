@@ -86,9 +86,9 @@ p, h1, h2, h3, h4, h5, h6 {
    'pretty' avoids widows (lone words on the last line of a paragraph).
    'balance' distributes heading text more evenly across lines. 
    Harmless in browsers that don't support them. */
-p {
+/* p {
   text-wrap: pretty;
-}
+} */
 h1, h2, h3, h4, h5, h6 {
   text-wrap: balance;
 }
